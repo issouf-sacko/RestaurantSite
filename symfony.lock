@@ -17,6 +17,18 @@
     "doctrine/lexer": {
         "version": "1.2.1"
     },
+    "imagine/imagine": {
+        "version": "1.2.4"
+    },
+    "liip/imagine-bundle": {
+        "version": "1.8",
+        "recipe": {
+            "repo": "github.com/symfony/recipes-contrib",
+            "branch": "master",
+            "version": "1.8",
+            "ref": "5a5bdc2d0e2533ed6935d5ae562f2b318a8fc1ee"
+        }
+    },
     "nikic/php-parser": {
         "version": "v4.10.4"
     },
@@ -40,6 +52,9 @@
         "files": [
             "config/packages/sensio_framework_extra.yaml"
         ]
+    },
+    "symfony/asset": {
+        "version": "v4.4.20"
     },
     "symfony/cache": {
         "version": "v4.4.20"
@@ -144,6 +159,9 @@
     "symfony/mime": {
         "version": "v4.4.20"
     },
+    "symfony/options-resolver": {
+        "version": "v4.4.20"
+    },
     "symfony/polyfill-intl-idn": {
         "version": "v1.22.1"
     },
@@ -161,6 +179,9 @@
     },
     "symfony/polyfill-php80": {
         "version": "v1.22.1"
+    },
+    "symfony/process": {
+        "version": "v4.4.20"
     },
     "symfony/requirements-checker": {
         "version": "2.0",
