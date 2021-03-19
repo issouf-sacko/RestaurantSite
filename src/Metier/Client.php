@@ -20,7 +20,7 @@ class Client {
     private $nom;
     private $prenom;
     private $addresse;
-    private $CodePostale;
+    private $codePostal;
     private $ville;
     private $email; 
     private $telephone;
@@ -42,8 +42,8 @@ class Client {
         return $this->addresse;
     }
 
-    function getCodePostale() {
-        return $this->CodePostale;
+    function getCodePostal() {
+        return $this->codePostal;
     }
 
     function getVille() {
@@ -79,8 +79,8 @@ class Client {
         $this->addresse = $addresse;
     }
 
-    function setCodePostale($CodePostale): void {
-        $this->CodePostale = $CodePostale;
+    function setCodePostal($codePostal): void {
+        $this->codePostal = $codePostal;
     }
 
     function setVille($ville): void {
